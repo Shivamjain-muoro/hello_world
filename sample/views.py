@@ -12,7 +12,7 @@ def index(request):
     html = f'''
     <html>
         <body>
-            <h1>Hello from Vercel!</h1>
+            <h1>Hello from Django Project!</h1>
             <p>The current time is { now }.</p>
         </body>
     </html>
