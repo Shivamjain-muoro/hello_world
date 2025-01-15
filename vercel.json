@@ -1,0 +1,12 @@
+{
+  "builds": [
+    {
+      "src": "hello_world/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "env": {
+    "DATABASE_URL": "your_database_url",
+    "SECRET_KEY": "your_secret_key"
+  }
+}
