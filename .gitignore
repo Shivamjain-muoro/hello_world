@@ -1,0 +1,22 @@
+# .gitignore file
+
+# Python
+*.pyc
+*.pyo
+__pycache__
+
+# Virtual environment
+venv/
+
+# Django
+db.sqlite3
+*.log
+*.pot
+*.pyc
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# Python environment
+env/
