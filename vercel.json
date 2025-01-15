@@ -1,11 +1,8 @@
 {
-  "builds": [
+  "routes": [
     {
-      "src": "hello_world/wsgi.py",
-      "use": "@vercel/python"
+      "src": "/(.*)",
+      "dest": "hello_world/wsgi.py"
     }
-  ],
-  "env": {
-    "SECRET_KEY": "your_secret_key"
-  }
+  ]
 }
